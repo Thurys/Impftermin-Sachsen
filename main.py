@@ -27,7 +27,7 @@ if __name__ == "__main__":
     elif pref_day == "None":
         pref_day = "2"
     else:
-        print("Wrong configuration at pref_day, please check your config. || False Einstellung bei pref_day, bitte Konfiguration überprüfen.")
+        print("Wrong configuration at pref_day, please check your config. || Falsche Einstellung bei pref_day, bitte Konfiguration überprüfen.")
         input()
         exit()
         
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     elif day_time == "None":
         day_time = "4"
     else:
-        print("Wrong configuration at day_time, please check your config. || False Einstellung bei day_time, bitte Konfiguration überprüfen.")
+        print("Wrong configuration at day_time, please check your config. || Falsche Einstellung bei day_time, bitte Konfiguration überprüfen.")
         input()
         exit()
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
                 client.go_back()
             else:
                 client.maximize()
-                print("Possibly found an appointmet, please check browser. Hit Enter to continue searching, or CTRL+C to end || Es wurde eventuell ein Termin gefunden. Bitte den Browser überprüfen. Enter drücken um mit der Suche fortzufahren, STRG+C um die Suche zu beenden.")
+                print("Possibly found an appointment, please check browser. Hit Enter to continue searching, or CTRL+C to end || Es wurde eventuell ein Termin gefunden. Bitte den Browser überprüfen. Enter drücken um mit der Suche fortzufahren, STRG+C um die Suche zu beenden.")
                 input()
 
         sleep(int(config["General"]["sleep_time"]))
