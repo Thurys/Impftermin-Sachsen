@@ -161,3 +161,12 @@ class BrowserClient():
         except Exception:
             pass
         return ret
+
+    def has_found_appointment(self) -> bool:
+        ret = False
+        try:
+            self._driver.find_element_by_xpath("//div[text()='Terminauswahl']")
+            ret = True
+        except Exception:
+            pass
+        return ret

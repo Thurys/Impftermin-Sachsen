@@ -56,9 +56,9 @@ if __name__ == "__main__":
         elif client.is_at_appointment_result():
             if client.is_no_appointment():
                 client.go_back()
-            else:
-                client.maximize()
-                print("Possibly found an appointment, please check browser. Hit Enter to continue searching, or CTRL+C to end || Es wurde eventuell ein Termin gefunden. Bitte den Browser überprüfen. Enter drücken um mit der Suche fortzufahren, STRG+C um die Suche zu beenden.")
-                input()
+        elif client.has_found_appointment():
+            client.maximize()
+            print("Possibly found an appointment, please check browser. Hit Enter to continue searching, or CTRL+C to end || Es wurde eventuell ein Termin gefunden. Bitte den Browser überprüfen. Enter drücken um mit der Suche fortzufahren, STRG+C um die Suche zu beenden.")
+            input()
 
         sleep(int(config["General"]["sleep_time"]))
