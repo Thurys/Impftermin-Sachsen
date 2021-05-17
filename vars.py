@@ -1,0 +1,17 @@
+VAC_CENTERS = {
+    "Belgern-Schildau": "Stadthalle Belgern, Mühlberger Str. 37, 04874 Belgern-Schildau ",
+    "Borna": "ehem. Aldi Markt Borna, Oststraße 3a, 04552 Borna ",
+    "Kamenz": "Sporthalle am Flughafen, Macherstraße 146, 01917 Kamenz ",
+    "Chemnitz": "Richard-Hartmann-Halle, Fabrikstraße 9, 09111 Chemnitz",
+    "Dresden": "Messe Dresden, Messering 6, 01067 Dresden ",
+    "Treuen": "Spektrum Treuen/Eich (ehem. Baumarkt), Rebesgrüner Str. 9, 08223 Treuen OT Eich ",
+    "Annaberg-Buchholz": "Festhalle Annaberg-Buchholz, Ernst-Roch-Straße 4, 09456 Annaberg-Buchholz ",
+    "Grimma": "TIZ Grimma, Muldentalhalle, Südstraße 80, 04668 Grimma",
+    "Löbau": "Messehalle Löbau, Görlitzer Str. 2, 02708 Löbau ",
+    "Leipzig": "Messe Leipzig, Messe-Allee 1, 04356 Leipzig ",
+    "Mittweida": "Mittweida über Simmel-Markt (ehem. EKZ), Schillerstraße 1, 09648 Mittweida ",
+    "Plauen": "IZ Plauen, Europaratstraße 5, 08523 Plauen",
+    "Pirna": "Aldi Pirna Jessen, Radeberger Str. 1h, 01796 Pirna ",
+    "Riesa": "Sachsen-Arena Riesa, Am Sportzentrum 5, 01589 Riesa ",
+    "Zwickau": "Stadthalle Zwickau, Bergmannsstraße 1, 08056 Zwickau ",
+}
